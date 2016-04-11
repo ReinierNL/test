@@ -1,0 +1,17 @@
+{
+	"type" : "FeatureCollection",
+	"crs" : {
+		"type" : "none",
+		"properties" : {}
+
+	},
+	"features" : [{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Polygon",
+				"coordinates" : [[[4.97, 52.40], [5.03, 52.40], [5.00, 52.35], [4.97, 52.40]]]
+			},
+			"properties" : {}
+		}
+	]
+}

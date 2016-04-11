@@ -1,0 +1,26 @@
+{
+	"type" : "FeatureCollection",
+	"crs" : {
+		"type" : "none",
+		"properties" : {}
+
+	},
+	"features" : [{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "MultiPolygon",
+			"coordinates" : [[[[4.97, 52.40], [5.03, 52.40], [5.00, 52.35], [4.97, 52.40]]],
+			                 [[[4.98, 52.39], [5.00, 52.36], [5.02, 52.39], [4.98, 52.39]]]]
+		},
+		"properties" : { "description": "buiten: cw, binnen: ccw" }
+	},
+	{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "MultiPolygon",
+			"coordinates" : [[[[4.97, 52.20], [5.00, 52.15], [5.03, 52.20], [4.97, 52.20]]],
+			                 [[[4.98, 52.19], [5.02, 52.19], [5.00, 52.16], [4.98, 52.19]]]]
+		},
+		"properties" : { "description": "buiten: ccw, binnen: cw" }
+	}]
+}
